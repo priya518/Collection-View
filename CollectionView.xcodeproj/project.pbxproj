@@ -16,6 +16,8 @@
 		0194F55523B4EA9D001DE29C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0194F55323B4EA9D001DE29C /* LaunchScreen.storyboard */; };
 		0194F56023B4EA9D001DE29C /* CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194F55F23B4EA9D001DE29C /* CollectionViewTests.swift */; };
 		0194F56B23B4EA9D001DE29C /* CollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194F56A23B4EA9D001DE29C /* CollectionViewUITests.swift */; };
+		0194F57923B4EB9E001DE29C /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194F57823B4EB9E001DE29C /* MyCollectionViewCell.swift */; };
+		0194F57B23B4F1A8001DE29C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194F57A23B4F1A8001DE29C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		0194F56623B4EA9D001DE29C /* CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0194F56A23B4EA9D001DE29C /* CollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewUITests.swift; sourceTree = "<group>"; };
 		0194F56C23B4EA9D001DE29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0194F57823B4EB9E001DE29C /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		0194F57A23B4F1A8001DE29C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				0194F55323B4EA9D001DE29C /* LaunchScreen.storyboard */,
 				0194F55623B4EA9D001DE29C /* Info.plist */,
 				0194F54E23B4EA9C001DE29C /* CollectionView.xcdatamodeld */,
+				0194F57823B4EB9E001DE29C /* MyCollectionViewCell.swift */,
+				0194F57A23B4F1A8001DE29C /* SecondViewController.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0194F57B23B4F1A8001DE29C /* SecondViewController.swift in Sources */,
 				0194F54A23B4EA9C001DE29C /* ViewController.swift in Sources */,
+				0194F57923B4EB9E001DE29C /* MyCollectionViewCell.swift in Sources */,
 				0194F54623B4EA9C001DE29C /* AppDelegate.swift in Sources */,
 				0194F55023B4EA9C001DE29C /* CollectionView.xcdatamodeld in Sources */,
 				0194F54823B4EA9C001DE29C /* SceneDelegate.swift in Sources */,
